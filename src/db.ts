@@ -7,7 +7,6 @@ const UserSchema = new Schema({
     password: String
 })
 
-export const UserModel = model("User", UserSchema);
 
 const ContentSchema = new Schema({
     title: String,
@@ -16,4 +15,12 @@ const ContentSchema = new Schema({
     userId: { type: mongoose.Types.ObjectId, ref: 'User', required: true }
 })
 
-export const ContentModel = model("Content", ContentSchema)
+
+const LinkSchema = new Schema({
+    hash: String,
+    userId: { type: mongoose.Types.ObjectId, ref: 'User', required: true, unique: true }
+})
+
+export const ContentModel = model("Content", ContentSchema);
+export const UserModel = model("User", UserSchema);
+export const LinkModel = model("Links", LinkSchema);
