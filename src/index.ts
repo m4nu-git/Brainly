@@ -160,6 +160,7 @@ app.delete("/api/v1/content", userMiddleware, async (req, res) => {
 
 app.post("/api/v1/brain/share", userMiddleware, async (req, res) => {
   const share = req.body.share;
+
   if (share) {
     const existingLink = await LinkModel.findOne({
       userId: req.userId,
@@ -200,10 +201,11 @@ app.get("/api/v1/brain/:shareLink", async (req, res) => {
 
   if (!link) {
     res.status(411).json({
-      message: "Sorry incorrect imput",
+      message: "Sorry incorrect input",
     });
     return;
   }
+
   // userId
   const content = await ContentModel.find({
     userId: link.userId,
