@@ -5,9 +5,11 @@ import { userMiddleware } from "./middleware";
 import { random } from "./utils";
 import bcrypt from "bcrypt";
 import z from "zod";
+import cors from "cors";
 
 const app = express();
 app.use(express.json());
+app.use(cors());
 
 app.post("/api/v1/signup", async (req, res) => {
   const inputSchema = z.object({
