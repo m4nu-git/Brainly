@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(cors());
 
 app.post("/api/v1/signup", async (req, res) => {
-  const inputSchema = z.object({
+  const signupInputSchema = z.object({
     username: z
       .string()
       .min(3, { message: "min 3 letters" })
@@ -26,7 +26,7 @@ app.post("/api/v1/signup", async (req, res) => {
       .regex(/[a-z]/, { message: "must contain a lowercase letter" }),
   });
 
-  const validInputs = inputSchema.safeParse(req.body);
+  const validInputs = signupInputSchema.safeParse(req.body);
 
   if (!validInputs.success) {
     const errorMessage = validInputs.error.errors.map((e) => e.message);
@@ -67,11 +67,13 @@ app.post("/api/v1/signup", async (req, res) => {
 });
 
 app.post("/api/v1/signin", async (req, res) => {
+
   const { username, password } = req.body;
 
   const existingUser = await UserModel.findOne({
     username,
   });
+
 
   if (!existingUser) {
     res.status(403).json({
@@ -90,11 +92,14 @@ app.post("/api/v1/signin", async (req, res) => {
       if (hashedPassword) {
         if (existingUser._id) {
           const token = jwt.sign(
-            { id: existingUser._id },
+            { id: existingUser._id,
+              username: existingUser.username,
+             },
             process.env.JWT_SECRET as string
           );
           res.status(200).json({
             message: "User Signed in Successfully",
+            username: existingUser.username,
             token: token,
           });
         }
