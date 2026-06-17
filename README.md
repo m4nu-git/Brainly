@@ -35,26 +35,18 @@ https://github.com/user-attachments/assets/your-video-id-here
 <table>
   <tr>
     <td align="center">
-      <img src="./screenshots/screenshot-1.png" width="400" alt="Screenshot 1" />
+      <img src="./assets/ss1.png" width="400" alt="Screenshot 1" />
       <br/>
-      <sub>Save Content</sub>
     </td>
     <td align="center">
-      <img src="./screenshots/screenshot-2.png" width="400" alt="Screenshot 2" />
+      <img src="./assets/ss2.png" width="400" alt="Screenshot 2" />
       <br/>
-      <sub>Auto-Generated Tags</sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="./screenshots/screenshot-3.png" width="400" alt="Screenshot 3" />
+      <img src="./assets/ss3.png" width="400" alt="Screenshot 3" />
       <br/>
-      <sub>Filter & Search</sub>
-    </td>
-    <td align="center">
-      <img src="./screenshots/screenshot-4.png" width="400" alt="Screenshot 4" />
-      <br/>
-      <sub>Public Brain Share</sub>
     </td>
   </tr>
 </table>
