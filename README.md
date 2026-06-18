@@ -15,13 +15,22 @@ bookmark links, articles, videos, and documents with intelligent auto-tagging po
 
 </div>
 
-<div align="center">
-## 📽️ Demo
-<!-- Add your demo video below -->
-https://github.com/user-attachments/assets/cad11a51-bcf4-4310-8266-b276b226ef11
-</div>
+---
+
+<h2 align="center">📽️ Demo</h2>
+
+<p align="center">
+  <a href="https://github.com/user-attachments/assets/cad11a51-bcf4-4310-8266-b276b226ef11">
+    <img
+      src="./assets/demo-thumbnail.png"
+      width="900"
+      alt="Watch Brainly Demo"
+    />
+  </a>
+</p>
 
 ---
+
 ## 📸 Screenshots
 
 <div align="center">
