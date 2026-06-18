@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/ceaecf7a-28c3-4be7-8059-7787836f2e7b
+
 <div align="center">
 
 # 🧠 Brainly — Second Brain API
@@ -19,8 +23,7 @@ bookmark links, articles, videos, and documents with intelligent auto-tagging po
 ## 📽️ Demo
 
 <!-- Add your demo video below -->
-
-
+https://github.com/user-attachments/assets/cad11a51-bcf4-4310-8266-b276b226ef11
 ---
 
 ## 📸 Screenshots
