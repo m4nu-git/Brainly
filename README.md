@@ -1,7 +1,3 @@
-
-
-https://github.com/user-attachments/assets/ceaecf7a-28c3-4be7-8059-7787836f2e7b
-
 <div align="center">
 
 # 🧠 Brainly — Second Brain API
