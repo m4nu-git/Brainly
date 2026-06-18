@@ -19,13 +19,13 @@ bookmark links, articles, videos, and documents with intelligent auto-tagging po
 
 </div>
 
-
+<div align="center">
 ## 📽️ Demo
 
 <!-- Add your demo video below -->
 https://github.com/user-attachments/assets/cad11a51-bcf4-4310-8266-b276b226ef11
 ---
-
+</div>
 ## 📸 Screenshots
 
 <div align="center">
