@@ -19,13 +19,7 @@ bookmark links, articles, videos, and documents with intelligent auto-tagging po
 ## 📽️ Demo
 
 <!-- Add your demo video below -->
-<div align="center">
 
-https://github.com/user-attachments/assets/your-video-id-here
-
-> *Replace the link above with your screen recording*
-
-</div>
 
 ---
 
